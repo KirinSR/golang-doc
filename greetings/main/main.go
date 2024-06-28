@@ -14,7 +14,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Call the Hello function from the greetings package
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Kirin")
 
 	if err != nil {
 		log.Fatal(err)
